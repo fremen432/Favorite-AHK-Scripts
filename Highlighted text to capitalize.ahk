@@ -2,4 +2,4 @@
 #Requires AutoHotkey >=2.0
 Send("^c")
 Sleep(10)
-SendInput(StrTitle(A_Clipboard))
+SendText(StrTitle(A_Clipboard))
