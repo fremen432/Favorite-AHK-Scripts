@@ -1,0 +1,3 @@
+; print the current date (Ex: 2024-01-01)
+MyDate := FormatTime(, "yyyy-MM-dd")
+SendInput(MyDate)
