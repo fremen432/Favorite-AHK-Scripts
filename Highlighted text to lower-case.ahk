@@ -1,4 +1,4 @@
-; copy highlighted text, then paste the lower-case version (Ex: "Hello World" -> "hello world")
+; copy highlighted text, make all letters lower-case, then paste (Ex: "Hello World" -> "hello world")
 #Requires AutoHotkey >=2.0
 Send("^c")
 Sleep(10)
