@@ -1,4 +1,4 @@
-; copy highlighted text, then paste the upper-case version (Ex: "Hello World" -> "HELLO WORLD")
+; copy highlighted text, make all letters upper-case, then paste (Ex: "Hello World" -> "HELLO WORLD")
 #Requires AutoHotkey >=2.0
 Send("^c")
 Sleep(10)
