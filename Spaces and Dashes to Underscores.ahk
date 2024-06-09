@@ -2,12 +2,7 @@
 #Requires AutoHotkey >=2.0
 Send("^c")
 Sleep(10)
-Result := ""
-Loop StrLen(A_Clipboard) {
-    Char := SubStr(A_Clipboard, A_Index, 1)
-    if (Char = " " or Char = "-")
-        Result .= "_"
-    else
-        Result .= Char
-}
-SendInput(Result)
+Result := A_Clipboard
+Result := StrReplace(Result, " ", "_")
+Result := StrReplace(Result, "-", "_")
+SendText(Result)
