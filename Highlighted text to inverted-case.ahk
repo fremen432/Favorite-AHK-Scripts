@@ -12,4 +12,4 @@ Loop Strlen(A_Clipboard) {
     else
         Lab_Invert_Char_Out:= Lab_Invert_Char_Out Lab_Invert_Char
 }
-SendInput(Lab_Invert_Char_Out)
+SendText(Lab_Invert_Char_Out)
